@@ -20,7 +20,7 @@ class StudentManager:
         print("Student was deleted: " +
               student.firstName + " " + student.lastName)
 
-    def deleteMultiple(self, students: list) -> None:
+    def deleteMultiple(self, students: list[Student]) -> None:
         for student in students:
             self.students.remove(student)
         print("All students were deleted.")
