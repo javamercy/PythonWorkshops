@@ -31,5 +31,5 @@ class StudentManager:
                   student.firstName + " " + student.lastName)
         print("All students were listed.")
 
-    def getStudentNumber(self, student: Student) -> Student:
+    def getStudentNumber(self, student: Student) -> int:
         return self.students.index(student)
