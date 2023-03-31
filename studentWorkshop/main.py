@@ -1,7 +1,7 @@
 from student import Student
 from studentManager import StudentManager
 
-student1 = Student("Emre", "Kurşun")
+student1: Student = Student("Emre", "Kurşun")
 student2 = Student("Ahmet", "Eren")
 student3 = Student("Osman", "Yücesoy")
 student4 = Student("Cemal", "Taş")
